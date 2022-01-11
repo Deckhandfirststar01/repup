@@ -1,0 +1,34 @@
+{
+    "componentConfigs": [
+        {
+            "id": "84a543f4-4d10-419f-068b-a44e446452b6",
+            "folder": "",
+            "name": "",
+            "dependencies": [],
+            "type": "IoTHub"
+        },
+        {
+            "id": "c6022d3b-f65f-8591-93e0-d24aee253239",
+            "folder": "",
+            "name": "",
+            "dependencies": [],
+            "type": "CosmosDB"
+        },
+        {
+            "id": "3df9c8ff-a808-c6e2-ede4-1aada1f74e3a",
+            "folder": "",
+            "name": "",
+            "dependencies": [
+                {
+                    "id": "84a543f4-4d10-419f-068b-a44e446452b6",
+                    "type": 1
+                },
+                {
+                    "id": "c6022d3b-f65f-8591-93e0-d24aee253239",
+                    "type": 0
+                }
+            ],
+            "type": "StreamAnalyticsJob"
+        }
+    ]
+}

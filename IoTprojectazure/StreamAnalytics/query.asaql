@@ -1,0 +1,10 @@
+-- Need help with your query?
+-- Check out some of the most common Stream Analytics query patterns:
+-- https://go.microsoft.com/fwLink/?LinkID=619153
+
+SELECT
+    *
+INTO
+    "cosmosdb-c6022d3b-f65f-8591-93e0-d24aee253239"
+FROM
+    "iothub-84a543f4-4d10-419f-068b-a44e446452b6"

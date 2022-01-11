@@ -1,0 +1,19 @@
+{
+    "folders": [
+        {
+            "path": "Device"
+        },
+        {
+            "path": "StreamAnalytics"
+        }
+    ],
+    "settings": {
+        "IoTWorkbench.BoardId": "iotbutton",
+        "IoTWorkbench.DevicePath": "Device",
+        "IoTWorkbench.StreamAnalyticsPath": "StreamAnalytics",
+        "azure-iot-edge.defaultPlatform": {
+            "platform": "windows-amd64",
+            "alias": null
+        }
+    }
+}
